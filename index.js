@@ -5,7 +5,7 @@ import { getPageContent } from './helpers/puppeteer'
 const request = require('request');
 const fs = require('fs');
 const TelegramBot = require('node-telegram-bot-api');
-const token = '1898855327:AAF1OLnpH4_jrN3hiAtxbMXVKfAm2FV51Ys';
+const token = '';
 const bot = new TelegramBot(token, { polling: true });
 
 bot.on('message', (msg) => {
