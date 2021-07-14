@@ -1,0 +1,30 @@
+{
+  "name": "anonfilesparser",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-node": "0.0.1-security",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "chalk": "^4.1.1",
+    "cherio": "^1.0.0-rc.2",
+    "node-html-parser": "^4.1.0",
+    "node-telegram-bot-api": "^0.53.0",
+    "nodemon": "^2.0.12",
+    "puppeteer": "^10.1.0"
+  },
+  "devDependencies": {
+    "@babel/preset-stage-2": "^7.8.3",
+    "babel-preset-stage-2": "^6.24.1"
+  },
+  "scripts": {
+    "start": "babel-node index.js"
+  },
+  "author": "",
+  "license": "ISC"
+}
